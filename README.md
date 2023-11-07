@@ -1,5 +1,5 @@
 # credit_risk_classification
-# Module 12 Report Template
+# Module 20 Report Template
 
 ## Overview of the Analysis
 
