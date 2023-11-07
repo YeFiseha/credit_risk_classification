@@ -7,11 +7,11 @@ In this section, describe the analysis you completed for the machine learning mo
 
 * Explain the purpose of the analysis.
 
-The purpose of this analysis is to understand how to utilize Machine Learning statistical algorithms to make predictions based on data patterns provided. In this challenge, we focus on Supervised Learning - where the data includes a labeled outcome.
+The purpose of this analysis is to use Machine Learning statistical algorithms to make predictions based on data patterns provided. In this challenge, we focus on Supervised Learning - where the data outcome are labeled.
 
 * Explain what financial information the data was on, and what you needed to predict.
 
-We use various techniques to train and evaluate a model based on loan risk. We use a dataset of historical lending activity from a company to build a model that can identify the creditworthiness of borrowers.
+We train and evaluate a model based on loan risk. We use a dataset of historical lending activity from a company to build a model that can identify the creditworthiness of borrowers.
 
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 
@@ -73,7 +73,9 @@ Machine Learning Model 2 with resampled dataset performs best. We know this from
 
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-Performance depends on the problem we are trying to solve, if we need to predict the healthy (low-risk) loans the logistic regression model with the original data makes better predictions, as the classification report shows precision of 1.00, and a recall of 0.99, while with the resampled data the precision was 0.99, and the recall was 0.99. 
+Performance depends on the problem we are trying to solve.
+
+If we need to predict the healthy (low-risk) loans, the logistic regression model with the original data makes better predictions. In this model, the classification report shows precision of 1.00, and a recall of 0.99, while with the resampled data - the precision is 0.99, and the recall is 0.99. 
 
 If we predict the high-risk loans - the model with the resampled data has precision of 0.99, and recall of 0.99, while with the original data, the precision was 0.85, and the recall was 0.91.
 
